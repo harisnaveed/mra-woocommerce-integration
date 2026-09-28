@@ -1,0 +1,30 @@
+# ==============================================================================
+# Git Ignore Rules for MRA-WooCommerce Integration Microservice
+# ==============================================================================
+
+# Credentials & Environment
+.env
+*.env
+!.env.example
+
+# Test Folders and Test Scripts
+test/
+tests/
+test_*.php
+*.test
+coverage/
+.phpunit.cache/
+
+# Runtime Logs and Locks
+logs/*.log
+logs/*.lock
+!logs/.htaccess
+!logs/index.html
+
+# Temporary & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
+*.tmp
