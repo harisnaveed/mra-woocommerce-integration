@@ -1,4 +1,4 @@
-# MRA -> WooCommerce Integration Bridge
+# MyRepairApp -> WooCommerce Integration Bridge or MyRepairApp to WooCommerce
 
 > A robust, standalone, high-performance inventory synchronization microservice built in **Pure Core PHP (8.1+)** with **PDO** connecting **MyRepairApp (MRA)** and **WooCommerce**.
 
@@ -7,6 +7,23 @@
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-REST%20API%20v3-purple.svg)](https://woocommerce.github.io/woocommerce-rest-api-docs/)
 [![Security](https://img.shields.io/badge/Security-Prepared%20Statements%20%7C%20HMAC--SHA256-red.svg)](#security--safety-guarantees)
 [![Audit](https://img.shields.io/badge/Audit-12%2F12%20Checks%20Passed-brightgreen.svg)](#testing--verification)
+
+---
+
+## Features
+
+- MyRepairApp inventory synchronization
+- WooCommerce product synchronization
+- WooCommerce category synchronization
+- MRA inventory to WooCommerce mapping
+- Inventory stock synchronization
+- Price synchronization
+- WooCommerce order webhooks
+- WooCommerce to MyRepairApp inventory updates
+- Cron-based inventory synchronization
+- REST API integration
+- PHP integration
+- Webhook handling
 
 ---
 
